@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.logo{
+    height: 50px;
+    width: 100px;
+    display: flex;
+    padding: 10px;
+    padding-left: 50px;
+    margin-right: auto;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 18px;
+}
+
+.header-links {
+    display: flex;
+    align-items: center;
+    padding-right: 68px;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.part1{
+    background-color: #1F2937;
+    display: flex;
+    padding: 50px;
+    gap:50px;
+}
+
+.part1left {
+
+    justify-content: flex-start;
+    text-align: justify;
+    flex: 1;
+}
+
+.main-text {
+    font-size: 68px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.button {
+    background-color: #3882F6;
+    border-radius: 8px;
+    border-color: #3882F6;
+    color: white;
+    padding: 5px 15px;
+}
+
+.part1right {
+    display: flex;
+}
+
+.img {
+    height: 300px;
+    width: 600px;
+    background-color: gray;
+}
+
+.part2 {
+    padding: 0;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.part2 .header {
+    background-color: white;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bolder;
+}
+
+.part2-content {
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0 ;
+    height: 300px;
+    width: 300px;
+    text-align: center;
+}
+
+.content .img {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    height: 200px;
+    width: 200px;
+    margin:  0;
+}
+
+.text {
+    text-align: center;
+}
+
+.part3 {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight:lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.author {
+    padding-right: 68px;
+    text-align: right;
+    font-size: 18px;
+    color : #1F2937;
+    font-weight: bold;
+}
+
+.part4 {
+    background-color: white;
+}
