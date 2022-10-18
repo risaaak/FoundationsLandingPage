@@ -135,6 +135,7 @@ a {
     font-weight:lighter;
     font-style: italic;
     color: #1F2937;
+    margin: 68px;
 }
 
 .author {
@@ -146,13 +147,27 @@ a {
 }
 
 .part4 {
+    padding: 68px;
     background-color: white;
 }
 
 .part4-content {
+    margin: auto;
+    height: 150px;
+    width: 1000px;
+    border-radius: 10px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     background-color:  #3882F6;
+    color: #F9FAF8;
+    gap: 50px;
+    text-align: justify;
+}
+
+.footer {
+    background-color:  #1F2937;
+    padding: 30px;
+    color: #F9FAF8;
 }
 
